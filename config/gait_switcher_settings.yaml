@@ -1,0 +1,21 @@
+gait_switcher_settings:
+  spinner_thread: 5
+  ElevationMapTopic: "/elevation_mapping/elevation_map_raw"
+  CmdVelTopic: "/cmd_vel"
+  SwitcherCheckFps: 3.0
+  WorldFrame: "world_planner"
+  RobotFrame: "base_link_planner"
+  ServiceName: "basic_command"
+  LookAheadTime: 3.0
+  RobotWidth: 0.6
+  ElevationLayer: "elevation"
+  TraversabilityLayer: "step"
+  SurfaceNormalLayer: "normal_z"
+  SlopeCriticalValue: 1.0
+  TraversabilityThreshold: 0.8
+  SlopeThreshold: 0.5
+  BadPointThreshold: 150
+  IfTestMode: true
+  TraversabilityCompareLayer: "traversability"
+  TraversabilityCompareThreshold: 0.8
+  TraversabilityCompareMinThreshold: 0.2

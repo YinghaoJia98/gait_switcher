@@ -1,0 +1,5 @@
+<launch>
+  <node name="gait_switcher" pkg="gait_switcher" type="gait_switcher_node" output="screen" launch-prefix="gdb -ex run --args ">
+    <rosparam file="$(find gait_switcher)/config/gait_switcher_settings.yaml" command="load" />
+  </node>
+</launch>
